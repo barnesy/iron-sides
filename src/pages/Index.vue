@@ -6,6 +6,13 @@
 
     <h1>Hello, Jim!</h1>
 
+    <Card>
+      Jim says...
+      <template v-slot:second-slot>
+       <h1>and kewl</h1>
+      </template>
+    </Card>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
