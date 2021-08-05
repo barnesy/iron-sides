@@ -1,7 +1,7 @@
 <template>
-  <Directory>
+  <Leaf>
     <template #header>
-      <h1>Index Directory</h1>
+      <h1>Index Leaf</h1>
     </template>
 
     <Card>
@@ -14,5 +14,5 @@
     <template #related>
       THIS IS RELATED
     </template>
-  </Directory>
+  </Leaf>
 </template>
