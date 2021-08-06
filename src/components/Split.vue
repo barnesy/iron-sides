@@ -1,0 +1,44 @@
+<template>
+  <div>
+
+    <div class="header">
+      <slot name="header"/>
+    </div>
+
+    <div class="container">
+
+      <div class="left">
+        <slot name="image"/>
+      </div>
+
+      <div class="right">
+        <slot/>
+      </div>
+
+    </div>
+
+  </div>
+</template>
+
+<style lang="scss" scoped>
+
+  .container {
+    display: flex;
+
+    .left, .right {
+      width: 50%;
+    }
+  }
+
+  .flip .container {
+    background: green;
+    flex-direction: row-reverse;
+  }
+
+  @media (max-width: 800px) {
+    .flip .container {
+      flex-direction: row;
+    }
+  }
+
+</style>

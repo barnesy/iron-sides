@@ -1,11 +1,9 @@
 <template>
   <div>
 
-    <h1><slot/>YO</h1>
+    <slot name="image"/>
 
-    <slot name="second-slot">
-
-    </slot>
+    <slot/>
 
   </div>
 </template>
