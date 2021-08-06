@@ -31,13 +31,16 @@
   }
 
   .flip .container {
-    background: green;
     flex-direction: row-reverse;
   }
 
   @media (max-width: 800px) {
-    .flip .container {
-      flex-direction: row;
+    .flip .container, .container {
+      flex-direction: column;
+
+      .left, .right {
+        width: 100%;
+      }
     }
   }
 
