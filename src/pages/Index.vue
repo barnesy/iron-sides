@@ -24,8 +24,17 @@
 
     </Split>
 
-    <template #related>
-      THIS IS RELATED
-    </template>
+    <Table>
+      <template #head>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </template>
+
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+    </Table>
+
   </Directory>
 </template>
