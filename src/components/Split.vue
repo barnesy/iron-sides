@@ -35,7 +35,7 @@
   }
 
   @media (max-width: 800px) {
-    .flip .container, .container {
+    .flip .container {
       flex-direction: column;
 
       .left, .right {

@@ -4,12 +4,48 @@
       <h1>Index Directory</h1>
     </template>
 
+    <GridRow>
+      <GridItem />
+      <GridItem />
+      <GridItem />
+      <GridItem />
+    </GridRow>
+
     <Card>
-      Jim says...a
-      <template v-slot:second-slot>
-       <h1>and kewl</h1>
-      </template>
+      <template #image><img src = "http://www.placekitten.com/360/200?image=16" /></template>
+      <template #category>Category</template>
+      <template #card-title>Card Title</template>
+      <template>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?</template>
+      <template #card-link><a href = "#">Exploration at its greatest.</a></template>
     </Card>
+
+
+    <CardGroup>
+      <Card>
+        <template #image><img src = "http://www.placekitten.com/360/200?image=4" /></template>
+        <template #category>Category</template>
+        <template #card-title>Card Title</template>
+        <template>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?</template>
+        <template #card-link><a href = "#">Exploration at its greatest.</a></template>
+      </Card>
+
+      <Card>
+        <template #image></template>
+        <template #category></template>
+        <template #card-title></template>
+        <template></template>
+        <template #card-link></template>
+      </Card>
+
+      <Card>
+        <template #image><img src = "http://www.placekitten.com/360/200?image=2" /></template>
+        <template #category>Category</template>
+        <template #card-title>Card Title</template>
+        <template>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?</template>
+        <template #card-link><a href = "#">Exploration at its greatest.</a></template>
+      </Card>
+    </CardGroup>
+
 
     <Split class="flip">
       <template #header>
@@ -24,23 +60,17 @@
 
     </Split>
 
-    <Split>
-      <template #header>
-        <h2>This is a title</h2>
+    <Table>
+      <template #head>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
       </template>
 
-      <template #image>
-        Image
-      </template>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+    </Table>
 
-      right stuff
-
-    </Split>
-
-
-
-    <template #related>
-      THIS IS RELATED
-    </template>
   </Directory>
 </template>
