@@ -10,12 +10,9 @@
       <template #support>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.</template>
     </PageHeader>
 
-    <Camera
-      name="Sony A7RIV"
-      img="../sony-a7riv.jpg"
+    <Video
+      videoID="WUvTyaaNkzM"
     />
-
-    
 
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>

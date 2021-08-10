@@ -8,6 +8,7 @@ import PageHeader from '~/components/PageHeader.vue'
 import PageSection from '~/components/PageSection.vue'
 import PageSubsection from '~/components/PageSubsection.vue'
 import Camera from '~/components/Camera.vue'
+import Video from '~/components/Video.vue'
 
 
 export default function (Vue, { router, head, isClient }) {
@@ -19,5 +20,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('PageSection', PageSection)
   Vue.component('PageSubsection', PageSubsection)
   Vue.component('Camera', Camera)
+  Vue.component('Video', Video)
 
 }
