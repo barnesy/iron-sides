@@ -7,6 +7,7 @@ import Group from '~/components/Group.vue'
 import PageHeader from '~/components/PageHeader.vue'
 import PageSection from '~/components/PageSection.vue'
 import PageSubsection from '~/components/PageSubsection.vue'
+import Camera from '~/components/Camera.vue'
 
 
 export default function (Vue, { router, head, isClient }) {
@@ -17,4 +18,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('PageHeader', PageHeader)
   Vue.component('PageSection', PageSection)
   Vue.component('PageSubsection', PageSubsection)
+  Vue.component('Camera', Camera)
+
 }
