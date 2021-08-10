@@ -7,6 +7,8 @@ import CardGroup from '~/components/CardGroup.vue'
 import GridItem from '~/components/GridItem.vue'
 import GridRow from '~/components/GridRow.vue'
 
+import Video from '~/components/Video.vue'
+
 export default function (Vue, { router, head, isClient }) {
 
   Vue.component('Directory', Directory)
@@ -17,5 +19,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('CardGroup', CardGroup)
   Vue.component('GridItem', GridItem)
   Vue.component('GridRow', GridRow)
-
+  Vue.component('Video', Video)
 }

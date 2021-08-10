@@ -46,6 +46,12 @@
       </Card>
     </CardGroup>
 
+    <Video
+        videoID = "WUvTyaaNkzM"
+    />
+
+
+
 
     <Split class="flip">
       <template #header>
