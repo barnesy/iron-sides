@@ -1,8 +1,20 @@
 <template>
+
+
+
   <Directory>
-    <template #header>
-      <h1>Index Directory</h1>
-    </template>
+
+      <Test />
+
+      
+    <PageHeader align="left">
+      <template>Headline goes in unnamed slot</template>
+      <template #support>And supporting copy goes in the support slot.</template>
+      <template #call-to-action>
+          <Button url = "https://www.callrail.com/">Call To Action</Button>
+      </template>
+
+    </PageHeader>
 
     <GridRow>
       <GridItem />
