@@ -4,10 +4,7 @@
 
   <Directory>
 
-      <Test />
-
-      
-    <PageHeader align="left">
+    <PageHeader align="left" bgcolor = "#B3EEFF">
       <template>Headline goes in unnamed slot</template>
       <template #support>And supporting copy goes in the support slot.</template>
       <template #call-to-action>

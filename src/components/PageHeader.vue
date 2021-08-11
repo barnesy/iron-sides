@@ -1,5 +1,5 @@
 <template>
-  <div class = "pageheader">
+  <div class = "pageheader" :style="{ 'background-color': bgcolor }">
     <div v-bind:class="align">
       <h1 class = "text"><slot>This is a Level 1 Header</slot></h1>
       <p class = "support"><slot name = "support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot></p>
@@ -49,14 +49,11 @@ export default {
   	align: {
       type: String,
   	},
-    // bgcolor: {
-    //   type: String,
-    // },
+    bgcolor: {
+       type: String,
+    },
   }
 }
 
 
 </script>
-
-
-bgcolor="green"

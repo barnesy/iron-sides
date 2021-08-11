@@ -1,21 +1,28 @@
 
 <template>
 <div>
-  <div class="text">hello</div>
+  <div class="text" :style="{ 'background-color': color }">hello</div>
 </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            color: 'red',
-        }
-    }
+  name: 'Test',
+  props: {
+    color: {
+      type: String,
+    },
+  }
+
+    // data() {
+    //     return {
+    //         color: 'green',
+    //     }
+    // }
 }
 </script>
 
-<style>
+<style lang = "scss">
 .text {
     color: v-bind(color);
 }
