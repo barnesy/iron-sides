@@ -6,8 +6,11 @@
 </template>
 
 
-<style lang="scss" scoped>
+<script>
+</script>
 
+
+<style lang="scss" scoped>
   .container {
     display: flex;
     flex-direction: column;

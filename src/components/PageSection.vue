@@ -1,6 +1,6 @@
 <template>
   <section>
-  <div class = "pagesection" :style="{ 'background-color': bgcolor }">
+  <div class = "pageSection" :style="{ 'background-color': bgcolor }">
     <div v-bind:class="align">
       <h2 class = "text"><slot>This is a Level 2 Header</slot></h2>
       <p class = "support"><slot name = "support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot></p>
@@ -15,20 +15,31 @@
 </template>
 
 
-<style scoped lang="scss">
+<script>
+export default {
+  name: 'PageHeader',
+  props: {
+  	align: {
+      type: String,
+  	},
+    bgcolor: {
+       type: String,
+    },
+  }
+}
+</script>
 
-  .pagesection {
+
+<style scoped lang="scss">
+  .pageSection {
     width: 100%;
     // background-color: v-bind(color);
     background-image: url(#);
   }
 
-
-
   .left {
     margin-left: 180px;
     border: none;
-
   }
 
   .right {
@@ -41,25 +52,4 @@
     text-align: center;
     border: none;
   }
-
 </style>
-
-
-<script>
-export default {
-
-
-  name: 'PageHeader',
-
-  props: {
-  	align: {
-      type: String,
-  	},
-    bgcolor: {
-       type: String,
-    },
-  }
-}
-
-
-</script>

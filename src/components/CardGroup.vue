@@ -7,13 +7,15 @@
 </template>
 
 
-<style lang="scss" scoped>
+<script>
+</script>
 
+
+<style lang="scss" scoped>
   .container {
     display: flex;
     width: 100%;
   }
-
 
   @media (max-width: 800px) {
     .container {
@@ -21,6 +23,4 @@
       width: 100%;
       }
   }
-
-
 </style>
