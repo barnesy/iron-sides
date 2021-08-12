@@ -13,6 +13,18 @@
 
     </PageHeader>
 
+    <PageSection align = "center">
+      <template>This H2 adds some context to this grouping.</template>
+      <template #support>And can have some shorter supporting copy, couple lines. </template>
+      <template #1>
+        <Video
+          videoID = "WUvTyaaNkzM"
+        />
+      </template>
+
+
+    </PageSection>
+
     <GridRow>
       <GridItem />
       <GridItem />

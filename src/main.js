@@ -7,6 +7,7 @@ import CardGroup from '~/components/CardGroup.vue'
 import GridItem from '~/components/GridItem.vue'
 import GridRow from '~/components/GridRow.vue'
 import PageHeader from '~/components/PageHeader.vue'
+import PageSection from '~/components/PageSection.vue'
 import Video from '~/components/Video.vue'
 import Button from '~/components/UI/Button.vue'
 import Test from '~/components/Test.vue'
@@ -23,6 +24,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('GridItem', GridItem)
   Vue.component('GridRow', GridRow)
   Vue.component('PageHeader', PageHeader)
+  Vue.component('PageSection', PageSection)
   Vue.component('Video', Video)
   Vue.component('Button', Button)
   Vue.component('Test', Test)
