@@ -1,16 +1,13 @@
 <template>
   <div class = "container center">
+
     <slot />
+
     <slot name = "position-two" />
     <slot name = "position-three" />
     <slot name = "position-4" />
   </div>
 </template>
-
-
-<script>
-</script>
-
 
 <style lang="scss" scoped>
 
@@ -30,6 +27,5 @@
       width: 80%;
       }
   }
-
 
 </style>

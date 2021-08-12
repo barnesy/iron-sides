@@ -1,23 +1,29 @@
 <template>
   <div class= "container">
-    <div><slot name="image"><img src = "http://www.placekitten.com/360/200?image=15" /></slot></div>
+
+    <div>
+      <slot name="image">
+        <img src = "http://www.placekitten.com/360/200?image=15" />
+      </slot>
+    </div>
+
     <div>
       <p class = "category"><slot name = "category">Default</slot></p>
       <h4><slot name = "card-title">Title Default</slot></h4>
+
       <p class = "body-copy">
         <slot>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</slot>
       </p>
+
       <p class = "body-copy">
-        <slot name = "card-link"><a href = "https://placekitten.com">Link Default</a></slot>
+        <slot name = "card-link">
+          <a href = "https://placekitten.com">Link Default</a>
+        </slot>
       </p>
     </div>
+    
   </div>
 </template>
-
-
-<script>
-</script>
-
 
 <style lang="scss" scoped>
 
@@ -49,4 +55,5 @@
     font-size: 1rem;
     margin-bottom: 2rem;
   }
+
 </style>

@@ -1,10 +1,8 @@
 <template>
-
-
-
   <Directory>
 
     <PageHeader align="left" bgcolor = "#B3EEFF">
+
       <template>Headline goes in unnamed slot</template>
       <template #support>And supporting copy goes in the support slot.</template>
       <template #call-to-action>
@@ -14,6 +12,7 @@
     </PageHeader>
 
     <PageSection align = "center">
+
       <template>This H2 adds some context to this grouping.</template>
       <template #support>And can have some shorter supporting copy, couple lines. </template>
       <template #1>
@@ -21,7 +20,6 @@
           videoID = "WUvTyaaNkzM"
         />
       </template>
-
 
     </PageSection>
 
@@ -33,46 +31,60 @@
     </GridRow>
 
     <Card>
-      <template #image><img src = "http://www.placekitten.com/360/200?image=16" /></template>
+      <template #image>
+        <img src = "http://www.placekitten.com/360/200?image=16" />
+      </template>
+
       <template #category>Category</template>
       <template #card-title>Card Title</template>
-      <template>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?</template>
+
       <template #card-link><a href = "#">Exploration at its greatest.</a></template>
+
+      To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?
     </Card>
 
 
     <CardGroup>
       <Card>
-        <template #image><img src = "http://www.placekitten.com/360/200?image=4" /></template>
+
+        <template #image>
+          <img src = "http://www.placekitten.com/360/200?image=4" />
+        </template>
+
         <template #category>Category</template>
         <template #card-title>Card Title</template>
-        <template>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?</template>
-        <template #card-link><a href = "#">Exploration at its greatest.</a></template>
+
+        <template #card-link>
+          <a href = "#">Exploration at its greatest.</a>
+        </template>
+
+        To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?
       </Card>
 
       <Card>
         <template #image></template>
         <template #category></template>
         <template #card-title></template>
-        <template></template>
         <template #card-link></template>
       </Card>
 
       <Card>
-        <template #image><img src = "http://www.placekitten.com/360/200?image=2" /></template>
+        <template #image>
+          <img src = "http://www.placekitten.com/360/200?image=2" />
+        </template>
+
         <template #category>Category</template>
         <template #card-title>Card Title</template>
-        <template>To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?</template>
-        <template #card-link><a href = "#">Exploration at its greatest.</a></template>
+
+        <template #card-link>
+          <a href = "#">Exploration at its greatest.</a>
+        </template>
+
+        To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?
       </Card>
     </CardGroup>
 
-    <Video
-        videoID = "WUvTyaaNkzM"
-    />
-
-
-
+    <Video videoID = "WUvTyaaNkzM" />
 
     <Split class="flip">
       <template #header>

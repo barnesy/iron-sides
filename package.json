@@ -1,5 +1,5 @@
 {
-  "name": "iron-sides-tmp",
+  "name": "iron-sides",
   "private": true,
   "scripts": {
     "build": "gridsome build",

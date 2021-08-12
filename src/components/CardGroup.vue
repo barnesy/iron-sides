@@ -1,15 +1,13 @@
 <template>
   <div class = "container">
+
     <slot />
+
     <slot name = "SecondCard" />
     <slot name = "ThirdCard" />
+
   </div>
 </template>
-
-
-<script>
-</script>
-
 
 <style lang="scss" scoped>
   .container {

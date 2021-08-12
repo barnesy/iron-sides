@@ -1,12 +1,12 @@
 <template>
-
   <table>
+
     <thead>
       <tr>
         <slot name="head"/>
       </tr>
     </thead>
-    
+
     <tbody>
       <slot />
     </tbody>
@@ -18,6 +18,6 @@
     </tfoot>
 
     </slot>
-  </table>
 
+  </table>
 </template>
