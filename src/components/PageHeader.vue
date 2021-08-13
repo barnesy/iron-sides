@@ -1,31 +1,31 @@
 <template>
-  <div class = "pageheader" :style="{ 'background-color': bgcolor }">
+  <section>
+    <div class="pageheader" :style="{ 'background-color': bgcolor }">
 
-    <div v-bind:class="align">
-      <h1 class="text">
-        <slot>This is a Level 1 Header</slot>
-      </h1>
+      <div v-bind:class="align">
+        <h1 class="text">
+          <slot>This is a Level 1 Header</slot>
+        </h1>
 
-      <p class="support">
-        <slot name="support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot>
-      </p>
+        <p class="support">
+          <slot name="support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot>
+        </p>
 
-      <p class="CTA">
-        <slot name = "call-to-action">
-          <Button />
-        </slot>
-      </p>
+        <p class="CTA">
+          <slot name="call-to-action">
+            <Button />
+          </slot>
+        </p>
+      </div>
+
     </div>
-
-  </div>
+  </section>
 </template>
 
-
-<style scoped lang="scss">
+<style lang="scss" scoped>
 
   .pageheader {
     width: 100%;
-    // background-color: v-bind(color);
     background-image: url(#);
   }
 

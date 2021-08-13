@@ -1,11 +1,8 @@
 <template>
-  <div class = "container center">
+  <div class="container center">
 
     <slot />
 
-    <slot name = "position-two" />
-    <slot name = "position-three" />
-    <slot name = "position-4" />
   </div>
 </template>
 
@@ -18,14 +15,15 @@
 
   .center {
      margin: 0 auto;
+     justify-content: center;
+     align-items: center;
   }
-
 
   @media (max-width: 800px) {
     .container {
       flex-direction: column;
       width: 80%;
-      }
+    }
   }
 
 </style>

@@ -1,10 +1,7 @@
 <template>
-  <div class = "container">
+  <div class="container">
 
     <slot />
-
-    <slot name = "SecondCard" />
-    <slot name = "ThirdCard" />
 
   </div>
 </template>
@@ -17,8 +14,8 @@
 
   @media (max-width: 800px) {
     .container {
-      flex-direction: column;
-      width: 100%;
+        flex-direction: column;
+        width: 100%;
       }
   }
 </style>
