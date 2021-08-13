@@ -1,5 +1,6 @@
 <template>
   <Directory>
+    <Notification />
 
     <PageHeader align="left" bgcolor="#B3EEFF">
 
