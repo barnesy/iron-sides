@@ -10,7 +10,8 @@ import PageHeader from '~/components/PageHeader.vue'
 import PageSection from '~/components/PageSection.vue'
 import Video from '~/components/Video.vue'
 import Button from '~/components/UI/Button.vue'
-import Test from '~/components/Test.vue'
+import Breadcrumb from '~/components/UI/Breadcrumb.vue'
+import Notification from '~/components/UI/Notification.vue'
 
 
 export default function (Vue, { router, head, isClient }) {
@@ -27,5 +28,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('PageSection', PageSection)
   Vue.component('Video', Video)
   Vue.component('Button', Button)
-  Vue.component('Test', Test)
+  Vue.component('Breadcrumb', Breadcrumb)
+  Vue.component('Notification', Notification)
 }

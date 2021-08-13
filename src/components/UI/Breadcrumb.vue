@@ -1,15 +1,16 @@
 <template>
-  <p class = "breadcrumb">
-
-    <a href = "#">Directory 1</a>  >>  <a href = "#">Directory 2</a>  >>  Leaf
-
-  </p>
+  <div class="breadcrumb">
+      <a href="#">Directory 1</a>  >>  <a href = "#">Directory 2</a>  >>  Leaf has no link
+  </div>
 </template>
 
-<style>
+<script>
 
+</script>
+
+<style>
   .breadcrumb {
-    font-size: .5rem;
+    padding: 1rem;
+    background-color: white;
   }
-  
 </style>
