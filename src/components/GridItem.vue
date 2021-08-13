@@ -2,8 +2,8 @@
   <div class="container center">
 
     <div>
-      <slot name="image">
-        <img src = "http://www.placekitten.com/270/200?image=15" />
+      <slot>
+        <img src="http://www.placekitten.com/270/200?image=15" />
       </slot>
     </div>
 

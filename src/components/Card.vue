@@ -15,11 +15,11 @@
         <slot name="card-title">Title Default</slot>
       </h4>
 
-      <p class="body-copy">
+      <p>
         <slot>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</slot>
       </p>
 
-      <p class="body-copy">
+      <p>
         <slot name="card-link">
           <a href="https://placekitten.com">Link Default</a>
         </slot>
@@ -45,19 +45,9 @@
     height: auto;
   }
 
-  h4 {
-    font-size: 1.25rem;
-    margin-top: .2rem;
-  }
-
   .category {
     font-size: .5rem;
     text-transform: uppercase;
-  }
-
-  .body-copy {
-    font-size: 1rem;
-    margin-bottom: 2rem;
   }
 
 </style>

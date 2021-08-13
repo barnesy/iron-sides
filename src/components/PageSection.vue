@@ -1,15 +1,15 @@
 <template>
   <section>
 
-    <div class = "pagesection" :style="{ 'background-color': bgcolor }">
+    <div class="pagesection" :style="{ 'background-color': bgcolor }">
 
       <div v-bind:class="align">
-        <h2 class = "text">
-          <slot name = "header">This is a Level 2 Header</slot>
+        <h2 class="text">
+          <slot name="header">This is a Level 2 Header</slot>
         </h2>
 
-        <p class = "support">
-          <slot name = "support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot>
+        <p class="support">
+          <slot name="support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot>
         </p>
 
         <slot/>
