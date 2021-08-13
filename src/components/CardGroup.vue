@@ -1,10 +1,10 @@
 <template>
-  <div class = "container">
+  <div class="container">
 
     <slot />
 
-    <slot name = "SecondCard" />
-    <slot name = "ThirdCard" />
+    <slot name="SecondCard" />
+    <slot name="ThirdCard" />
 
   </div>
 </template>

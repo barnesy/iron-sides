@@ -1,11 +1,11 @@
 <template>
-  <div class = "container center">
+  <div class="container center">
 
     <slot />
 
-    <slot name = "position-two" />
-    <slot name = "position-three" />
-    <slot name = "position-4" />
+    <slot name="position-two" />
+    <slot name="position-three" />
+    <slot name="position-4" />
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class = "pageheader" :style="{ 'background-color': bgcolor }">
+  <div class="pageheader" :style="{ 'background-color': bgcolor }">
 
     <div v-bind:class="align">
       <h1 class="text">
@@ -20,8 +20,7 @@
   </div>
 </template>
 
-
-<style scoped lang="scss">
+<style lang="scss" scoped>
 
   .pageheader {
     width: 100%;

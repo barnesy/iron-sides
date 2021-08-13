@@ -20,7 +20,7 @@
   </section>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 
   .pagesection {
     width: 100%;
