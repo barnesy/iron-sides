@@ -1,4 +1,4 @@
-<template>\
+<template>
   <p class = "button">
 
     <a v-bind:href="url">
