@@ -1,7 +1,7 @@
 <template>
   <Leaf>
     <template #header><Breadcrumb /></template>
-
+    <template>
     <h1>Header</h1>
     <Video videoID="WUvTyaaNkzM" />
 
@@ -10,11 +10,11 @@
 
     <h4>Header above body copy</h4>
     <h5>Header in body copy</h5>
-    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+    <p>For those who have seen the Earth from space, and for the <a href = "#">hundreds and perhaps thousands more</a> who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
 
-    <p>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.</p>
+    <p>It suddenly struck me that that <strong>tiny pea, pretty and blue</strong>, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. <em>I felt very, very small</em>.</p>
 
-    <p><span class="inlineSubhead">Inline subhead</span> Science has not yet mastered prophecy.<p>
+    <p><span class="inlineSubhead">Inline subhead:</span> Science has not yet mastered prophecy.<p>
     <p><span class="inlineSubhead">We predict:</span> too much for the next year and yet far too little for the next 10.</p>
 
     <blockquote>"We are all connected; To each other, biologically. To the earth, chemically. To the rest of the universe atomically."</blockquote>
@@ -36,22 +36,34 @@
     <p class="smallCopy">It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.</p>
 
     <p class="finePrint">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10.</p>
-
+  </template>
 
 
 
 
     <Table>
-      <template #head>Table Head
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
+      <template #head>Table Head</template>
+        <template>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+          </tr>
       </template>
-
-      <td>A</td>
-      <td>B</td>
-      <td>C</td>
     </Table>
+
+    <template #related>
+      <CardGroup>
+        <Card />
+        <Card />
+        <Card />
+      </CardGroup>
+    </template>
 
   </Leaf>
 </template>

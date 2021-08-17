@@ -8,7 +8,7 @@
 
 </script>
 
-<style>
+<style lang="scss" scoped>
   .breadcrumb {
     padding: 1rem;
     background-color: white;

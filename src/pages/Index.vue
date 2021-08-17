@@ -23,6 +23,16 @@
 
     </PageSection>
 
+
+    <TopicNav
+        link='first Topic'
+        url='https://cnn.com/'
+        >
+      <template #subhead>This gives some context</template>
+
+    </TopicNav>
+
+
     <GridRow>
       <GridItem />
       <GridItem />
@@ -32,7 +42,7 @@
 
     <Card>
       <template #image>
-        <img src="http://www.placekitten.com/360/200?image=16" />
+        <img src="http://www.placekitten.com/360/200?image=2" />
       </template>
 
       <template #category>Category</template>
@@ -48,7 +58,7 @@
       <Card>
 
         <template #image>
-          <img src="http://www.placekitten.com/360/200?image=4" />
+          <img src="http://www.placekitten.com/360/200?image=12" />
         </template>
 
         <template #category>Category</template>
@@ -83,6 +93,8 @@
         To be the first to enter the cosmos, to engage, single-handed, in an unprecedented duel with nature—could one dream of anything more?
       </Card>
     </CardGroup>
+
+
 
     <Video videoID="WUvTyaaNkzM" />
 

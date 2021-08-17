@@ -1,16 +1,14 @@
 <template>
   <div>
     <header id="global-header">
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/test">Test</g-link>
-      </nav>
+      <Header />
     </header>
 
     <router-view />
 
     <div id="footer">
-      <g-link class="nav__link" to="/">Home</g-link>
+      <!-- <g-link class="nav__link" to="/">Home</g-link> -->
+      <Footer />
     </div>
   </div>
 </template>

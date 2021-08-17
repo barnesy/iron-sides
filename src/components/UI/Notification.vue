@@ -11,7 +11,7 @@
 
 </script>
 
-<style>
+<style lang="scss">
   .notification {
     padding: .33rem;
     background-color: red;

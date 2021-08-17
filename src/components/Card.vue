@@ -3,7 +3,7 @@
 
     <div>
       <slot name="image">
-        <img src="http://www.placekitten.com/360/200?image=15" />
+        <img src="http://www.placekitten.com/360/200?image=13" />
       </slot>
     </div>
 
