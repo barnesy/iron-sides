@@ -34,8 +34,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    width: 33%;
-    margin: 12px;
+    max-width: 30rem;
     padding: 1rem;
     background-color: #B3EEFF;
   }
@@ -46,7 +45,7 @@
   }
 
   .category {
-    font-size: .5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
   }
 

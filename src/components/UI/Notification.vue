@@ -11,9 +11,16 @@
 
 </script>
 
-<style>
+<style lang="scss">
   .notification {
-    padding: .33rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
     background-color: red;
+    padding:1rem 2rem;
+
+    a {
+      color: white;
+    }
   }
 </style>

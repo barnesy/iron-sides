@@ -8,8 +8,10 @@
 
 <style lang="scss" scoped>
   .container {
-    display: flex;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
   }
 
   @media (max-width: 800px) {

@@ -28,6 +28,14 @@
     .left, .right {
       width: 50%;
     }
+
+    .left img {
+      width: 100%;
+    }
+
+    .right {
+      padding: 3rem;
+    }
   }
 
   .flip .container {

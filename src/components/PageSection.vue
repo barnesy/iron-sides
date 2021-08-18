@@ -3,7 +3,7 @@
 
     <div class="pagesection" :style="{ 'background-color': bgcolor }">
 
-      <div v-bind:class="align">
+      <div v-bind:class="align" class="content">
         <h2 class="text">
           <slot name="header">This is a Level 2 Header</slot>
         </h2>
@@ -24,19 +24,19 @@
 
   .pagesection {
     width: 100%;
+    display: flex;
+    justify-content: center;
     background-image: url(#);
+    padding: 3rem;
+
+    .content {
+      max-width: 40rem;
+    }
   }
 
   .left {
-    margin-left: 180px;
     border: none;
-
-  }
-
-  .right {
-    text-align: right;
-    border: none;
-    margin-right: 180px;
+    text-align: left;
   }
 
   .center {
@@ -49,7 +49,6 @@
 
 <script>
 export default {
-
 
   name: 'PageHeader',
 

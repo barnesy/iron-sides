@@ -15,7 +15,7 @@
     text-transform: uppercase;
     padding: 1.2rem;
     border: 2px solid blue;
-    border-radius: 12px;
+    border-radius: 1rem;
     display: inline-block;
   }
 
