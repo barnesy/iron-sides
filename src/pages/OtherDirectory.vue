@@ -19,31 +19,37 @@
 
     </PageSection>
 
-    <Split>
-      <template #image>
-        <img src="http://www.placekitten.com/360/200?image=16" />
-      </template>
+    <PageSection>
+      <Split>
+        <template #image>
+          <img src="http://www.placekitten.com/360/200?image=16" />
+        </template>
 
-      <h2>This H2 adds some context to this grouping.</h2>
-      <p>And can have some shorter supporting copy, couple lines.</p>
-    </Split>
+        <h2>This H2 adds some context to this grouping.</h2>
+        <p>And can have some shorter supporting copy, couple lines.</p>
+      </Split>
+    </PageSection>
 
-    <Split class="flip">
-      <template #image>
-        <img src="http://www.placekitten.com/360/200?image=16" />
-      </template>
+    <PageSection>
+      <Split class="flip">
+        <template #image>
+          <img src="http://www.placekitten.com/360/200?image=16" />
+        </template>
 
-      <h2>This H2 adds some context to this grouping.</h2>
-      <p>And can have some shorter supporting copy, couple lines.</p>
-    </Split>
+        <h2>This H2 adds some context to this grouping.</h2>
+        <p>And can have some shorter supporting copy, couple lines.</p>
+      </Split>
+    </PageSection>
 
-    <CardGroup>
+    <PageSection>
+      <CardGroup>
 
-      <Card/>
-      <Card/>
-      <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
 
-    </CardGroup>
+      </CardGroup>
+    </PageSection>
 
   </Directory>
 </template>
