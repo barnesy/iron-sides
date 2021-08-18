@@ -4,13 +4,18 @@
     <div class="pagesection" :style="{ 'background-color': bgcolor }">
 
       <div v-bind:class="align" class="content">
-        <h2 class="text">
-          <slot name="header">This is a Level 2 Header</slot>
-        </h2>
 
-        <p class="support">
-          <slot name="support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot>
-        </p>
+        <div class="copy">
+
+          <h2 class="text">
+            <slot name="header">This is a Level 2 Header</slot>
+          </h2>
+
+          <p class="support">
+            <slot name="support">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10. </slot>
+          </p>
+
+        </div>
 
         <slot/>
       </div>
@@ -27,10 +32,15 @@
     display: flex;
     justify-content: center;
     background-image: url(#);
-    padding: 3rem;
 
     .content {
-      max-width: 40rem;
+      width: 100%;
+
+      .copy {
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: 3rem;
+      }
     }
   }
 

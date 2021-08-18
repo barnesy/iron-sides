@@ -1,10 +1,6 @@
 <template>
   <div>
 
-    <div class="header">
-      <slot name="header"/>
-    </div>
-
     <div class="container">
 
       <div class="left">

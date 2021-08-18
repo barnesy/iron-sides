@@ -10,9 +10,3 @@
 </template>
 
 <script>
-
-<style lang="scss">
-  div {
-    border: 1px dashed grey;
-  }
-</style>
