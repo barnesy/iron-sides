@@ -16,7 +16,16 @@ import Navigation from '~/components/UI/Navigation.vue'
 
 import '~/assets/global.scss'
 
+
 export default function (Vue, { router, head, isClient }) {
+
+  head.link.push({
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Merriweather'},
+      {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Open%20Sans'
+    })
 
   Vue.component('Directory', Directory)
   Vue.component('Leaf', Leaf)
