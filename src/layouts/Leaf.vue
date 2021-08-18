@@ -1,9 +1,11 @@
 <template>
   <div>
-    <slot name="header"/>
 
-    <slot/>
+    <Navigation />
+
+    <slot />
 
     <slot name="related"/>
+
   </div>
 </template>

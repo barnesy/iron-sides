@@ -2,6 +2,8 @@
   <section>
     <div class="pageheader" :style="{ 'background-color': bgcolor }">
 
+      <Navigation />
+
       <div v-bind:class="align">
         <h1 class="text">
           <slot>This is a Level 1 Header</slot>
@@ -56,10 +58,10 @@ export default {
 
   props: {
   	align: {
-      type: String,
+      type: String
   	},
     bgcolor: {
-       type: String,
+       type: String
     },
   }
 }

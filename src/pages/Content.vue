@@ -1,6 +1,6 @@
 <template>
   <Leaf>
-    <template #header><Breadcrumb /></template>
+    <Breadcrumb />
 
     <h1>Header</h1>
     <Video videoID="WUvTyaaNkzM" />
@@ -36,10 +36,6 @@
     <p class="smallCopy">It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.</p>
 
     <p class="finePrint">Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10.</p>
-
-
-
-
 
     <Table>
       <template #head>Table Head

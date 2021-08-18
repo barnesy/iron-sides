@@ -12,7 +12,9 @@ import Video from '~/components/Video.vue'
 import Button from '~/components/UI/Button.vue'
 import Breadcrumb from '~/components/UI/Breadcrumb.vue'
 import Notification from '~/components/UI/Notification.vue'
+import Navigation from '~/components/UI/Navigation.vue'
 
+import '~/assets/global.scss'
 
 export default function (Vue, { router, head, isClient }) {
 
@@ -30,4 +32,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Button', Button)
   Vue.component('Breadcrumb', Breadcrumb)
   Vue.component('Notification', Notification)
+  Vue.component('Navigation', Navigation)
 }
