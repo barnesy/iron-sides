@@ -14,7 +14,7 @@ import Breadcrumb from '~/components/UI/Breadcrumb.vue'
 import Notification from '~/components/UI/Notification.vue'
 import Navigation from '~/components/UI/Navigation.vue'
 
-import '~/assets/global.scss'
+import '~/assets/styles/global.scss'
 
 export default function (Vue, { router, head, isClient }) {
 
