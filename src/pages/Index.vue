@@ -113,3 +113,11 @@
 
   </Directory>
 </template>
+
+  <style lang="scss">
+    @font-face {
+      font-family: BerninaSans-Light;
+      src: url('../assets/fonts/BerninaSans/BerninaSans-Light.otf');
+      font-weight: normal;
+    }
+  </style>
