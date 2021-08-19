@@ -60,7 +60,7 @@
 <script>
 export default {
 
-  name: 'PageHeader',
+  name: 'PageSection',
 
   props: {
   	align: {

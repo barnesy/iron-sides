@@ -2,7 +2,7 @@
   <Directory>
     <Notification />
 
-    <PageHeader align="left" bgcolor="#B3EEFF">
+    <PageHeader align="left" bgColor="var(--main-bg-color)">
 
       <template>Headline goes in unnamed slot</template>
       <template #support>And supporting copy goes in the support slot.</template>

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="pageheader" :style="{ 'background-color': bgcolor }">
+    <div class="pageheader" :style="{ 'background-color': bgColor }">
 
       <Navigation />
 
@@ -51,6 +51,7 @@
 </style>
 
 <script>
+import variables from '~/assets/styles/variables.scss'
 
 export default {
 
@@ -60,7 +61,7 @@ export default {
   	align: {
       type: String
   	},
-    bgcolor: {
+    bgColor: {
        type: String
     },
   }
