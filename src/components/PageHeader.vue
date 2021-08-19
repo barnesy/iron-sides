@@ -28,7 +28,9 @@
 
   .pageheader {
     width: 100%;
-    background-image: url(#);
+    background-image: url('../assets/images/grey-bg.png');
+    background-size: cover;
+    background-position: center;
   }
 
   .left {
@@ -51,7 +53,6 @@
 </style>
 
 <script>
-import variables from '~/assets/styles/variables.scss'
 
 export default {
 
