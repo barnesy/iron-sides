@@ -1,13 +1,12 @@
 <template>
-  <div class="container">
-
+  <div class="card">
     <div>
       <slot name="image">
         <img src="http://www.placekitten.com/360/200?image=15" />
       </slot>
     </div>
 
-    <div>
+    <div class="content">
       <p class="category">
         <slot name="category">Default</slot>
       </p>
@@ -31,12 +30,15 @@
 
 <style lang="scss" scoped>
 
-  .container {
+  .card {
     display: flex;
     flex-direction: column;
     max-width: 30rem;
-    padding: 1rem;
     background-color: #B3EEFF;
+  }
+
+  .content {
+    padding: 3rem;
   }
 
   img {

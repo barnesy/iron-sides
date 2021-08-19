@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="card-group">
 
     <slot />
 
@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss" scoped>
-  .container {
+  .card-group {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
