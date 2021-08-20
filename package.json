@@ -1,6 +1,6 @@
 {
   "name": "iron-sides",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
@@ -12,5 +12,11 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "sass-loader": "^10.1.1"
-  }
+  },
+  "version": "1.0.2",
+  "description": "Pattern Library designed for simple internet",
+  "main": "index.js",
+  "repository": "git@github.com:barnesy/iron-sides.git",
+  "author": "precious <chris@barnesy.me>",
+  "license": "MIT"
 }
