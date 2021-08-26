@@ -2,7 +2,6 @@ import Directory from '~/layouts/Directory.vue'
 import Leaf from '~/layouts/Leaf.vue'
 import Table from '~/components/Table.vue'
 import Split from '~/components/Split.vue'
-import Card from '~/components/Card.vue'
 import CardGroup from '~/components/CardGroup.vue'
 import GridItem from '~/components/GridItem.vue'
 import GridRow from '~/components/GridRow.vue'
@@ -13,6 +12,8 @@ import Button from '~/components/UI/Button.vue'
 import Breadcrumb from '~/components/UI/Breadcrumb.vue'
 import Notification from '~/components/UI/Notification.vue'
 import Navigation from '~/components/UI/Navigation.vue'
+
+import { Card } from '@gas-digital/components';
 
 import '~/assets/styles/global.scss'
 
