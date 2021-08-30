@@ -34,7 +34,6 @@
     display: flex;
     flex-direction: column;
     max-width: 30rem;
-    background-color: #B3EEFF;
   }
 
   .content {

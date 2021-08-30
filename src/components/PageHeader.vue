@@ -63,7 +63,7 @@ export default {
       type: String
   	},
     bgColor: {
-       type: String
+      type: String
     },
   }
 }
