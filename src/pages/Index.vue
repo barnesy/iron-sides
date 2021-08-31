@@ -1,23 +1,13 @@
 <template>
   <Layout>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images
-    <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
+    <picture>
+      <source media="(min-width:650px)" srcset="images/img_pink_flowers.jpg">
+      <source media="(min-width:465px)" srcset="images/img_white_flower.jpg">
+      <img src="/images/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
 
-
-    <PageHeader>
-      <template #header>The display title is set with an H1 tag.</template>
-      <template #support>It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth. I didn’t feel like a giant. I felt very, very small.</template>
-    </PageHeader>
-
-    <Video
-      videoID="WUvTyaaNkzM"
-    />
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+    <img src="/images/img_orange_flowers.jpg">
 
   </Layout>
 </template>
